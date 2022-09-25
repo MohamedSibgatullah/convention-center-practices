@@ -21,6 +21,9 @@
       .fa-arrow-right{
         padding-left:10px;
       }
+      .fa-circle-check{
+        color: rgb(237, 235, 248);
+      }
       .package-offer{
          justify-content: space-between;
       }
@@ -43,11 +46,35 @@
         box-sizing: content-box;
         padding: 45px;
         margin-bottom: 45px;
-        box-shadow: 0px 42px rgba(63, 135, 245, 0.25)
-;
+        box-shadow: 0px 42px rgb(222, 234, 251);
       }
       .our-package{
         height: 517px;
+      }
+      .client-says-area{
+        justify-content: space-between;
+      }
+      .client-area{
+        height: 323px;
+        width: 360px;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+      }
+      .carousel-width{
+        width: 50%;
+      }
+      .side-image{
+        margin-left: 102px;
+        width: 546px;
+        height: 364px;
+      }
+      footer{
+        width: 10%0px;
+        height: 280px;
+        
       }
     </style>
   </head>
@@ -144,14 +171,14 @@
                   
               </div>
             </section>
-            <section class="d-flex justify-content-center">
+            <section class="d-flex justify-content-center mt-5 mb-5">
               <h1 class="pt-5 pb-5">Our package</h1>
             </section>
             <section class="row">
               <div class=" d-flex package-offer our-package">
                 <div>
                   <h2>$300</h2>
-                  <h3>Business fair</h3>
+                  <h5>Business fair</h5>
                   <p>For most businesses event 
                     like book fair, craft fair.</p>
                     <div><i class="fa-solid fa-circle-check"></i>limited space access</div>
@@ -164,7 +191,7 @@
                 </div>
                 <div >
                   <h2>$500</h2>
-                  <h3>wedding basic</h3>
+                  <h5>wedding basic</h5>
                   <p>For weddings with basic plan
                     and limited item</p>
                     <div><i class="fa-solid fa-circle-check"></i>Full space access</div>
@@ -176,7 +203,7 @@
                 </div>
                 <div class="Wedding-plus">
                   <h2>$800</h2>
-                  <h3>Wedding plus</h3>
+                  <h5>Wedding plus</h5>
                   <p>For most weddings with premium plans</p>
                   <div><i class="fa-solid fa-circle-check"></i>Full space access</div>
                   <div><i class="fa-solid fa-circle-check"></i>Dedicated team</div>
@@ -187,7 +214,7 @@
                 </div>
                 <div>
                   <h2>$1200</h2>
-                  <h3>Corporate event</h3>
+                  <h5>Corporate event</h5>
                   <p>For most corporate business 
                     events</p>
                     <div><i class="fa-solid fa-circle-check"></i>Full space access</div>
@@ -200,7 +227,112 @@
                 </div>
               </div>
             </section>
+            <!-- card use kore korlei easy hoto. ami normal niyime koresi. PANDA COMMERCE BOOTSTRAP a card used hoise -->
+            <section class="d-flex  justify-content-center">
+              <h1>Happy Clients says</h1>
+            </section>
+            <section class="d-flex mt-5 mb-5 client-says-area">
+              <div class="client-area ">
+                <p class="text-center pt-5 ">Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <img class="mx-auto d-block" src="images/images/person 1.png" alt="">
+                  <h6 class="text-center">Regina Miles</h6>
+                  <p class="text-center">Banker</p>
+              </div>
+              <div class="client-area ">
+                <p class="text-center pt-5">Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <img class="mx-auto d-block" src="images/images/person 2.png" alt="">
+                  <h6 class="text-center">Jone Drake</h6>
+                  <p class="text-center"> Banker</p>
+              </div>
+              <div class="client-area">
+                <p class="text-center pt-5 ">Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <img class="mx-auto d-block" src="images/images/person 3.png" alt="">
+                  <h6 class="text-center">Cret Yater</h6>
+                  <p class="text-center">Banker</p>
+              </div>
+            </section>
+            <section>
+              <h1 class="d-flex justify-content-center pt-5 pb-5">Frequently Asked Questions</h1>
+            </section>
+            <section>
+              <div class="row pb-5">
+                <div class="d-flex  ">
+                  <div class="accordion carousel-width" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          What’s the difference between event design and event planning? 
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          How early do we need to start planning an event
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          What is your refund and cancellation policy?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          How do you keep budgets on track?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="side-image">
+                    <img class="img-fluid" src="images/images/people.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </section>
           </main>
+          <footer class="bg-dark mt-5">
+            <div>
+              <div>
+                <p class="text-white">© 2020 bike. All rights reserved</p>
+              </div>
+              <div>
+                <h6 class="text-white">Get the App</h6>
+              </div>
+            </div>
+          </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
